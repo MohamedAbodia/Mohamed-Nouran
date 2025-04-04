@@ -20,7 +20,7 @@ export default {
 			},
 			fontFamily: {
 				serif: [
-					'Playfair Display',
+					'Cairo',
 					'serif'
 				]
 			},
