@@ -26,6 +26,32 @@ const LandingPage = ({ onOpenInvitation }) => (
       >
         {/* حاوية البطاقة */}
         <div className="backdrop-blur-sm bg-white/50 p-6 sm:p-8 md:p-10 rounded-2xl border border-rose-100/50 shadow-xl">
+          {/* أسماء العروسين */}
+          <motion.div
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            transition={{ delay: 0.5 }}
+            className="text-center space-y-4"
+          >
+            <div className="space-y-2">
+              <h1 className="text-3xl sm:text-4xl md:text-5xl font-serif text-gray-800 leading-tight">
+                {config.data.groomName}
+                <span className="text-rose-400 mx-2 sm:mx-3">&</span>
+                {config.data.brideName}
+              </h1>
+            </div>
+          </motion.div>
+
+        <div className="flex items-center justify-center gap-3 mb-6 sm:mb-8">
+            <div className="h-px w-12 sm:w-16 bg-rose-200/50" />
+            <div className="w-2 h-2 rounded-full bg-rose-300" />
+            <div className="h-px w-12 sm:w-16 bg-rose-200/50" />
+          </div>
+
+        
+
+        <img src='../../public/images/Mohamed-Nouran.jpg'/>
+        <br></br>
           {/* الخط الزخرفي العلوي */}
           <div className="flex items-center justify-center gap-3 mb-6 sm:mb-8">
             <div className="h-px w-12 sm:w-16 bg-rose-200/50" />
@@ -47,6 +73,7 @@ const LandingPage = ({ onOpenInvitation }) => (
               </p>
             </div>
 
+
             <div className="inline-flex flex-col items-center space-y-1 bg-white/80 px-4 sm:px-6 py-2 sm:py-3 rounded-xl">
               <Clock className="w-5 h-5 text-rose-400" />
               <p className="text-gray-700 font-medium">
@@ -55,22 +82,7 @@ const LandingPage = ({ onOpenInvitation }) => (
             </div>
           </motion.div>
 
-          {/* أسماء العروسين */}
-          <motion.div
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            transition={{ delay: 0.5 }}
-            className="text-center space-y-4"
-          >
-            <div className="space-y-2">
-              <h1 className="text-3xl sm:text-4xl md:text-5xl font-serif text-gray-800 leading-tight">
-                {config.data.groomName}
-                <span className="text-rose-400 mx-2 sm:mx-3">&</span>
-                {config.data.brideName}
-              </h1>
-              <div className="h-px w-16 sm:w-24 mx-auto bg-rose-200" />
-            </div>
-          </motion.div>
+          
 
           {/* زر فتح الدعوة */}
           <motion.div

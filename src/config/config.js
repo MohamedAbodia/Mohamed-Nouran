@@ -11,7 +11,7 @@ const config = {
     maps_url: "https://maps.app.goo.gl/oorfKXJyZiL51JNV7",
     maps_embed:
       "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3454.540235294004!2d31.364215599999994!3d30.021355399999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14583ea25252c149%3A0x1c1f7b9c038b4034!2sRamage%20Hotel%2C%20Resort%2C%20And%20Spa!5e0!3m2!1sen!2seg!4v1743769476452!5m2!1sen!2seg",
-    time: "من الساعة 2:00 بعد الظهر إلى الساعة 5:00 بعد العصر",
+    time: "من 2:00 ظهراً إلى 5:00 عصراً",
     location: "القاعة الكبرى، فندق رماج",
     address: "محور المشير طنطاوي بجوار استادالدفاع الجوي ومسجد المشير, مدينة نصر, 12345 القاهرة, مصر",
     ogImage: "/images/og-image.jpg",

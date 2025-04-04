@@ -20,7 +20,7 @@ export default {
 			},
 			fontFamily: {
 				serif: [
-					'Cairo',
+					'Tajawal',
 					'serif'
 				]
 			},
