@@ -50,7 +50,7 @@ const LandingPage = ({ onOpenInvitation }) => (
 
         
 
-        <img src='../../public/images/Mohamed-Nouran.jpg'/>
+        <img src='../../images/Mohamed-Nouran.jpg'/>
         <br></br>
           {/* الخط الزخرفي العلوي */}
           <div className="flex items-center justify-center gap-3 mb-6 sm:mb-8">
