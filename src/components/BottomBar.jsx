@@ -15,7 +15,6 @@ const menuItems = [
   { icon: CalendarHeart, label: 'حفل الزفاف', href: '#event' },
   { icon: MapPin, label: 'اللوكيشن', href: '#location' },
   { icon: Gift, label: 'الدعوة', href: '#gifts' },
-  { icon: MessageCircleHeart, label: 'التهانى', href: '#wishes' },
 ];
 
 /**
